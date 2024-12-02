@@ -1,0 +1,198 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Main Container */
+.joy {
+    background-color: rgba(175, 238, 238, 0.525);
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 15px;
+}
+
+/* Image Styling */
+.im {
+    height: 150px;
+    width: 120px;
+    border: white solid;
+    border-radius: 50%;
+    float: left;
+}
+
+/* Heading Styling */
+.hh {
+    float: left;
+    padding: 40px;
+}
+
+hr {
+    border: solid black 3px;
+    border-bottom: none;
+    margin: 20px auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #11999e;
+}
+
+/* Links */
+.pp {
+    padding: 50px;
+    float: right;
+}
+
+.pp p a {
+    text-decoration: none;
+    color: #11999e;
+    font-weight: bold;
+}
+
+.pp p a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.jjj {
+    clear: both;
+}
+
+/* Left and Right Sections */
+.ps, .w, .ky, .ho, .rss, .ed {
+    width: 30%;
+    float: left;
+}
+
+.pp2, .w1, .co, .co1, .uu, .bbs, .mms, .ru, .md {
+    float: right;
+    width: 70%;
+}
+
+/* Clearfix */
+.cle, .dd, .ds, .dfg, .ii, .ik {
+    clear: both;
+}
+
+/* Paragraph and Borders */
+.hp {
+    font-weight: bold;
+    border: solid black 1px;
+    border-bottom: none;
+}
+
+.w2 {
+    padding-top: 20px;
+}
+
+.p5 {
+    float: right;
+    width: 70%;
+}
+
+.p6 {
+    font-weight: bold;
+}
+
+/* Footer Section */
+.fb {
+    max-width: 1000px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.fb a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.fb a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.fb p {
+    color: white;
+    padding-top: 10px;
+}
+
+/* RESPONSIVE STYLES */
+@media (max-width: 768px) {
+    /* Main container adjustments */
+    .joy {
+        padding: 10px;
+    }
+
+    /* Image */
+    .im {
+        height: 100px;
+        width: 100px;
+    }
+
+    /* Text alignment */
+    .hh, .pp {
+        float: none;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .pp p a {
+        font-size: 16px;
+    }
+
+    /* Sections */
+    .ps, .w, .ky, .ho, .rss, .ed, 
+    .pp2, .w1, .co, .co1, .uu, .bbs, .mms, .ru, .md {
+        width: 100%;
+        float: none;
+    }
+
+    /* Footer */
+    .fb {
+        padding: 15px;
+    }
+
+    .fb a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Small screens */
+    body {
+        font-size: 14px;
+    }
+
+    /* Images and text adjustments */
+    .im {
+        height: 80px;
+        width: 80px;
+    }
+
+    .hh, .pp {
+        padding: 10px 0;
+    }
+
+    .pp p a {
+        font-size: 14px;
+    }
+
+    /* Footer adjustments */
+    .fb a {
+        font-size: 16px;
+    }
+
+    .fb p {
+        font-size: 12px;
+    }
+}
